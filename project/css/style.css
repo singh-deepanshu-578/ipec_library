@@ -1,0 +1,22 @@
+/* external style sheet */      
+h1{
+    color:green;
+    background-color: yellow;
+    font-size: 24px;
+}
+p{
+    color: red;
+    background-color: skyblue;
+    font-size: 14px;
+}
+#abc{
+    color:green;
+    background-color: yellow;
+    font-size: 24px;
+}
+
+p.xyz,a.xyz{
+    color:brown;
+    background-color: yellow;
+    font-size: 24px;
+}

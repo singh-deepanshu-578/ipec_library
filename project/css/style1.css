@@ -1,0 +1,23 @@
+/* CHILD SELECTORS */
+p>a { /* here element before > denotes parent element and element after > denotes child element*/
+    color: green;
+}
+
+li > a {
+    color: red;
+}
+
+
+/* DESCENDANT SELECTORS*/
+ul a { /* element before space is ancestor element and after space is descendant element*/
+    color: blue;
+}
+
+
+/*GROUPING SELECTROS*/
+h1 , p{
+    color: peachpuff;
+}
+
+
+/*ATTRIBUTE SELECTORS*/

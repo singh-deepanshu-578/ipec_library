@@ -1,0 +1,31 @@
+div {
+    border: solid 1px red;
+    height: 150px;
+    position: relative;
+}
+p {
+    border: solid 1px black;
+}
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 100px
+}
+
+.fixed {
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.table{
+    position: fixed;
+    bottom: 400px;
+}

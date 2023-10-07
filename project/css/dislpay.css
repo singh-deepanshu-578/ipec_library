@@ -1,0 +1,24 @@
+div {
+    border: solid 1px red;
+}
+
+
+
+a.block {
+    border: solid 1px black;
+    display: block;/*by default, display type is none */
+}
+
+a.inline-block {
+    border: solid 1px black;
+    display: inline-block;
+    /* isme widht par effect padta hai */
+}
+
+
+
+a.none{
+    border: solid 1px black;
+    width: 200px; /* width has no effect in anchor tag */
+     /* all elements will be hidden from the user */
+}

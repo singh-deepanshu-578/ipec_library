@@ -1,0 +1,52 @@
+<!-- used to move HTML elements from their existing positions.
+4 values: static (default value)-elements can't be moved from their positions
+, relative-- move an element wrt its orignial pos. 
+,fixed -- moves element wrt to browser window and pos of element remaions fixed even if we scroll the web page
+absolute -- moves element wrt nearest positioned(any element whcih has pos value other than static) ancestor(any element that is present up in the HTML hierarchy) element-->
+
+<html>
+    <head>
+        <title>Position</title>
+        <link rel="stylesheet" href="css/position.css"/>
+    </head>
+    <body>
+        <div>
+            <h1>This is a heading</h1>
+            <p> 
+                This is 1st para. This is not moved
+            </p>
+            <p class="relative">
+                This is 2nd para. This has relative pos. 
+            </p>
+            <p class="fixed">
+                This is 3rd para. This has fixed pos.
+            </p>    
+            <p class="absolute">
+                This is 4th para. This has absolute pos.
+            </p>
+        </div>
+
+        <table border="2" cellspacing="5" class="table"> 
+            <tr> 
+                <th> </th>
+                <th> Movement wrt</th>
+                <th> flow gap</th>
+            </tr>
+            <tr>
+                <td> Relative</td>
+                <td> original pos</td>
+                <td> No other element tries to fit and leaves a gap</td>
+            </tr>
+            <tr>
+                <td> Fixed</td>
+                <td> Browser window</td>
+                <td> next element takes its oroginal place and leaves no gap</td>
+            </tr>
+            <tr>
+                <td> Absolute</td>
+                <td> Nearest positioned ancestor</td>
+                <td> next element takes its oroginal place and leaves no gap</td>
+            </tr>
+        </table>
+    </body>    
+</html>

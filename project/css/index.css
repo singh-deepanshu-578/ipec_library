@@ -1,0 +1,119 @@
+body {
+    background: url(/project/img/istockphoto-1097811822-612x612.jpg) repeat;
+    border: 2px dashed red;
+    height: 100%;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+div.transbox:hover{
+    opacity: 1;
+}
+  
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+ 
+div.transbox1 {
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0.8;
+    color: red;
+}
+div.transbox1:hover{
+    opacity: 1;
+}
+  
+div.transbox1 p {
+    margin: 1%;
+    font-weight: bold;
+    color: red;
+}
+
+.IPEC_LIB{
+    font-size: 150px;
+    color: black
+}
+
+.Welcome , .intro{
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+.cardBox {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+  
+  .cardBox:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .card {
+    background: #222;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+  
+  .card p {
+    margin-bottom: 1.8em;
+  }
+  
+  .card .front,
+  .card .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card .back {
+    transform: rotateY(180deg);
+  }
+  
+  .card .back a {
+    padding: 0.3em 0.5em;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    font-size: 0.9em;
+    transition: all 0.2s ease 0s;
+  }
+  
+  .card .back a:hover {
+    background: #fff;
+    color: #333;
+    text-shadow: 0 0 1px #333;
+  }
